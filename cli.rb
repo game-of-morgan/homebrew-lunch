@@ -2,16 +2,16 @@
 class Cli < Formula
   desc "CLI to check the lunch menu for this week at Bold Commerce."
   homepage "https://lunch.email/"
-  version "0.1.4"
+  version "0.1.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/game-of-morgan/lunch/releases/download/v0.1.4/lunch_0.1.4_Darwin_x86_64.tar.gz"
-    sha256 "40483e468e2688471a46e71cdc480e46c526a5a630d8d4364f58e542c78a9da1"
+    url "https://github.com/game-of-morgan/lunch/releases/download/v0.1.5/lunch_0.1.5_Darwin_x86_64.tar.gz"
+    sha256 "e0a079026579bd970a15de9cdc69090973689e4db00e00547a68b8de1dfe3f3a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/game-of-morgan/lunch/releases/download/v0.1.4/lunch_0.1.4_Linux_x86_64.tar.gz"
-      sha256 "d5c6f7bc88df94558ab3a201d8d1d80c947dd968c463c20105956150ea990b2d"
+      url "https://github.com/game-of-morgan/lunch/releases/download/v0.1.5/lunch_0.1.5_Linux_x86_64.tar.gz"
+      sha256 "56dc69a37de22bcd4725ea34592cca892ad2e18cd1b6c65b769edea9133191ca"
     end
   end
 
